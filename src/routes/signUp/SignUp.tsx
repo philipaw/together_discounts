@@ -1,9 +1,9 @@
 import { FunctionalComponent, h } from "preact";
-import { FormField } from "../../components/form/formField";
+import { EmailField } from "../../components/form/EmailField";
 import * as style from "./style.css";
 
 export const SignUp: FunctionalComponent = () => (
     <div class={style.sign_up}>
-        <FormField />
+        <EmailField />
     </div>
 );
