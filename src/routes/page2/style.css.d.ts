@@ -4,6 +4,9 @@ declare namespace StyleCssNamespace {
         info_body2: string;
         info_slug2: string;
         page2: string;
+        page2_col1: string;
+        page2_col2: string;
+        page2_fill: string;
     }
 }
 

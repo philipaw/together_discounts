@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "saastco-splash",
+  "name": "together_discounts",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -9,11 +9,6 @@
     "dev": "preact watch",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "test": "jest ./tests"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.{css,md,scss}": "prettier --write",

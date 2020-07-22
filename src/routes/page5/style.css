@@ -1,0 +1,54 @@
+.page5 {
+    grid-column: 1;
+    grid-row: 5;
+
+    /* sub-grid */
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+}
+
+.page5_col1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.page5_col2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.page5_fill {
+    width: 500px;
+    height: 400px;
+    background: mediumslateblue;
+}
+
+.info_slug5 {
+    width: 546px;
+    height: 56px;
+
+    margin-bottom: 1rem;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8rem;
+    line-height: 59px;
+
+    color: hsl(0, 0%, 20%);
+}
+
+.info_body5 {
+    width: 612px;
+    height: 116px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.75rem;
+    line-height: 1.4;
+    /* or 124% */
+
+    opacity: 45%;
+}
