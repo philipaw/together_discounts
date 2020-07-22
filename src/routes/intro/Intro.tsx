@@ -12,7 +12,11 @@ export const Intro: FunctionalComponent = () => (
                 </div>
             </div>
             <div class={style.picture1}>
-                <div class={style.picture1_fill}></div>
+                {/* <div class={style.picture1_fill}></div> */}
+                <image
+                    class={style.picture1_fill}
+                    src="../../assets/images/sampleIllustration1_600x600.jpg"
+                />
             </div>
             <div class={style.notify_me}>
                 <a href="#signup">Let me know</a>
