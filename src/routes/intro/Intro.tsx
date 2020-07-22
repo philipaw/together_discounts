@@ -15,7 +15,7 @@ export const Intro: FunctionalComponent = () => (
                 <div class={style.picture1_fill}></div>
             </div>
             <div class={style.notify_me}>
-                <p>Let me know</p>
+                <a href="#signup">Let me know</a>
             </div>
         </div>
     </div>

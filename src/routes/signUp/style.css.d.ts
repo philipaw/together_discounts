@@ -2,6 +2,7 @@
 declare namespace StyleCssNamespace {
     export interface IStyleCss {
         sign_up: string;
+        sign_up_slug: string;
     }
 }
 

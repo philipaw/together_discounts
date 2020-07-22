@@ -71,14 +71,14 @@
     width: 199px;
     height: 55px;
     border-radius: 15px;
-    background-color: #c44bc4;
+    background-color: mediumslateblue;
 
     margin: -10px auto;
 
     text-align: center;
 }
 
-.notify_me p {
+.notify_me a {
     display: inline-block;
 
     border-style: none;
@@ -89,6 +89,8 @@
     line-height: 42px;
 
     margin: 4% auto;
+
+    text-decoration: none;
 
     color: #ffffff;
 }
